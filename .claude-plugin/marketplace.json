@@ -1,0 +1,46 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lumberjack-plugins",
+  "version": "1.0.0",
+  "description": "Lumberjack Software's collection of AI-native development workflow plugins for Claude Code",
+  "owner": {
+    "name": "Lumberjack Software",
+    "email": "alfred@lumberjack.so"
+  },
+  "metadata": {
+    "homepage": "https://github.com/lumberjack-so/claude-plugins",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lumberjack-so/claude-plugins.git"
+    },
+    "license": "MIT",
+    "keywords": [
+      "lumberjack",
+      "workflow-automation",
+      "issue-tracking",
+      "devops",
+      "github",
+      "linear",
+      "ai-native",
+      "claude-code"
+    ]
+  },
+  "pluginRoot": "./plugins",
+  "plugins": [
+    {
+      "name": "dovetail",
+      "version": "2.0.18",
+      "description": "AI-native issue-driven development workflow with deterministic hooks and native CLI delegation for GitHub, Linear, Supabase, and Fly.io",
+      "source": "./dovetail",
+      "category": "productivity",
+      "tags": ["workflow", "automation", "linear", "github", "issue-tracking", "git-hooks", "pern-stack"],
+      "author": {
+        "name": "Lumberjack Software",
+        "email": "alfred@lumberjack.so"
+      },
+      "homepage": "https://github.com/lumberjack-so/claude-plugins/tree/main/plugins/dovetail",
+      "license": "MIT",
+      "strict": true
+    }
+  ]
+}
