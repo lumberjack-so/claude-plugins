@@ -31,7 +31,7 @@
       "name": "dovetail",
       "version": "2.0.18",
       "description": "AI-native issue-driven development workflow with deterministic hooks and native CLI delegation for GitHub, Linear, Supabase, and Fly.io",
-      "source": "./dovetail",
+      "source": "dovetail",
       "category": "productivity",
       "tags": ["workflow", "automation", "linear", "github", "issue-tracking", "git-hooks", "pern-stack"],
       "author": {
