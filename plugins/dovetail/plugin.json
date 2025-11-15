@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "dovetail",
+  "version": "2.0.18",
+  "description": "AI-native issue-driven development workflow enforcing best practices through deterministic hooks and native CLI delegation (GitHub, Linear, Supabase, Fly.io)",
+  "author": {
+    "name": "Lumberjack Software",
+    "email": "alfred@lumberjack.so"
+  },
+  "homepage": "https://github.com/lumberjack-so/claude-plugins/tree/main/plugins/dovetail",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lumberjack-so/claude-plugins.git",
+    "directory": "plugins/dovetail"
+  },
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "automation",
+    "linear",
+    "github",
+    "issue-tracking",
+    "git-hooks",
+    "pern-stack",
+    "devops",
+    "supabase",
+    "flyio"
+  ],
+  "dependencies": {
+    "node": ">=18.0.0"
+  },
+  "requiredTools": ["git", "gh"],
+  "recommendedTools": ["linearis"],
+  "commands": "./commands",
+  "agents": "./agents",
+  "hooks": "./hooks/hooks.json"
+}
